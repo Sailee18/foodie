@@ -1,0 +1,135 @@
+
+/* .navigation-wrap.scroll-on{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+    transition:all .15s ease-in-out 0s;
+  } */
+.static
+{
+    position:fixed;
+    width:100%;
+}
+
+.navbar-brand img
+{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:5px solid black;
+}
+.nav-item .nav-link
+{
+    color:brown;
+    font-size:large;
+    font-weight:bold;
+
+}
+.nav-item .nav-link:hover
+{
+    color:blue;
+}
+
+#home
+{
+    padding-top:1rem;
+    margin-top:1rem;
+}
+#home .container-fluid .container .row .burger img
+{
+    float:right;
+}
+
+.order .btn-light
+{
+    font-weight:bold;
+}
+#about .container-fluid .container .row .fries img
+{
+    float:left;
+    padding-bottom:7rem;
+}
+#about
+{
+    padding-top:5rem;
+}
+ 
+.counter-section
+{
+    text-align: center;
+    padding-top:3rem;
+    background-color:brown;
+    color:azure;
+}
+.food-type ul li
+{
+    list-style:tick;
+}
+/* .food-type ul li::before 
+{
+    content:''
+}
+ */
+.fish img
+{
+    width:400px;
+    height:250px;
+    float: right;
+}
+
+#explore-food
+{
+    padding-top: 5rem;
+}
+
+#explore-food .card img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+#explore-food .card
+{
+    border:none;
+    border-radius: 0.9375rem;
+}
+#explore-food .card span
+{
+    font-weight: 800;
+    color:brown;
+}
+#review
+{
+    padding-top: 4rem;
+}
+#faq
+{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.footer{
+    background:brown;
+  }
+  .footer .footer-link{
+    font-size:1rem;
+    color:white;
+    padding:10px 10px;
+    text-decoration: none;
+  }
+  .footer .footer-link:hover{
+    color:aqua;
+  }
+  .footer a i{
+    font-size: 1.5rem;
+    color:white;
+    padding:0 1rem;
+  }
+  
+
+
